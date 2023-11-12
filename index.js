@@ -17,7 +17,7 @@ $("img.img2").fadeOut(300, function () {
 //Winner
 if (randNum1 > randNum2) {
     $("h1").html("🚩Player 1 Wins");
-  } else if (randNum1 > randNum2) {
+  } else if (randNum1 < randNum2) {
     $("h1").html("Player 2 Wins🚩");
   } else {
     $("h1").html("Draw!");
